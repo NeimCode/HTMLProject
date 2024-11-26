@@ -1,0 +1,38 @@
+#principalGaleria{
+    width: 900px;
+    transition: all .2s ease;
+    border-radius: 15px;
+}
+
+#principalGaleria:hover{
+    transform:scale(1.1);
+    filter: contrast(110%);
+    filter: saturate(160%);
+
+}
+
+
+.galeria{
+    margin-top: 5%;
+}
+.galeria img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    transition:transform 0.25s ease;
+    
+}
+
+.galeria img:hover{
+    transform:scale(1.5)
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.row img {
+    width: 350px;
+}

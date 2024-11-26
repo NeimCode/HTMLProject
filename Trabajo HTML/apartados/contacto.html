@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/contacto.css">
+    <link rel="stylesheet" href="../styles/animacion.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./menu.html">Menú</a></li>
+                    <li><a href="./ubicacion.html">Ubicación</a></li>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./galeria.html">Galería</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="formulario">
+            <form class="form-horizontal">
+                <fieldset>
+                    <legend>Contacto</legend>
+                    <input id="nombre" name="nombre" type="text" placeholder="Pon tu nombre aquí."
+                        class="form-control input-md" required="">
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="selectbasic">Data Center</label>
+                        <select id="selectbasic" name="selectbasic">
+                            <option value="elemental">Elemental</option>
+                            <option value="gaia">Gaia</option>
+                            <option value="mana">Mana</option>
+                            <option value="meteor">Meteor</option>
+                            <option value="aether">Aether</option>
+                            <option value="primal">Primal</option>
+                            <option value="crystal">Crystal</option>
+                            <option value="dynamis">Dynamis</option>
+                            <option value="chaos">Chaos</option>
+                            <option value="light">Light</option>
+                            <option value="materia">Materia</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="razon">¿Por qué quieres contactar con
+                            nosotros?</label>
+                        <div class="col-md-4">
+                            <div class="radio">
+                                <label for="razon-0">
+                                    <input type="radio" name="razon" id="razon-0" value="Reserva" checked="checked">
+                                    Reserva
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="razon-1">
+                                    <input type="radio" name="razon" id="razon-1" value="sugerencia">
+                                    Sugerencia
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="razon-2">
+                                    <input type="radio" name="razon" id="razon-2" value="pregunta">
+                                    Pregunta
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="razon-3">
+                                    <input type="radio" name="razon" id="razon-3" value="otro">
+                                    Otro
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="opinion"
+                        name="opinion">Escribe aquí lo que deseas decirnos.</textarea>
+                        <br>
+                    <button id="button1id" name="button1id" class="btn btn-success">Good Button</button>
+                    <button id="button2id" name="button2id" class="btn btn-warning">Scary Button</button>
+                </fieldset>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>

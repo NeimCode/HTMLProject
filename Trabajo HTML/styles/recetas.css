@@ -1,0 +1,34 @@
+.menu1{
+    float: right;
+    width: 20%;
+    margin: auto;
+}
+
+.menu2{
+    float: left;
+    width: 10%;
+
+}
+
+#comida1, #comida3{
+    animation: unLado 1.3s ease 0s 1 normal forwards;
+}
+
+#comida2, #comida4{
+    animation: alOtro 1.3s ease 0s 1 normal forwards;
+}
+#comida1, #comida2, #comida3, #comida4{
+    margin: 2%;
+    padding: 20px;
+    background-color: #e5e0dc;
+    border: 5px dashed #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px -8px #b98a7d6a inset;
+}
+
+.menu{
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 60%;
+}
