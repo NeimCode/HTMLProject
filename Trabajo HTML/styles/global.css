@@ -6,16 +6,14 @@
 
 }
 
-  
-
 body {
     background-color: #e6bbaa;
-    background-image: url(../img/simple-dashed.png);
-
+        background-image: url(../img/simple-dashed.png), url(../img/coffee-pattern.png);
+        background-position: right bottom, left top;
+        background-repeat: repeat, no-repeat;
 }
 
 nav {
-    width: 100dvw;
     text-align: center;
     padding: 1%;
     background-color: #b98a7d;
@@ -27,7 +25,7 @@ nav {
 
 nav ul {
     list-style-type: none;
-    
+
 }
 
 nav ul li {
@@ -52,11 +50,16 @@ nav ul li a:hover {
     border: 3px rgb(255, 255, 255) solid;
     padding: 20px;
 }
-.aqui{
-    background-color: #f3ebde;
-    box-shadow: 0px 0px 10px 0px #f1e5d1b9 inset;
 
+nav ul li a:active {
+    background-color: #98707044;
 }
+
+.aqui {
+    box-shadow: 0px 0px 20px #f1e5d1;
+    font-weight: 700;
+}
+
 
 footer {
     width: 100%;
@@ -72,3 +75,31 @@ footer {
     flex-direction: column;
     min-height: 100vh;
 }
+
+#gatoMaulla {
+    width: 55px;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    transition: all .2s ease;
+
+}
+
+#gatoMaulla:hover {
+    width: 60px;
+    animation: spin 0.5s infinite;
+
+}
+
+/*Fuentes*/
+
+@font-face {
+    font-family: 'MyWebFont';
+    src:  url('../fonts/ComichaRegular.woff2') format('woff2'),
+    }
+
+    @font-face {
+        font-family: 'handwriting';
+        src: url('../fonts/HelloBeautifulEart-e9nwe.otf');
+    }

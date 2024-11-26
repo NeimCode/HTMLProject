@@ -1,12 +1,30 @@
+h2{
+    font-family: handwriting;
+    font-size: 30px;
+    font-style:normal;
+    color: #ffffff;
+    text-shadow: -3px 0px 0px rgba(192, 158, 143, 0.89);
+}
+
+img{
+    transition: all .2s ease;
+}
+
+img:hover{
+    transform:scale(1.1);
+
+}
+
 .menu1{
     float: right;
-    width: 20%;
+    width: 100px;
     margin: auto;
 }
 
 .menu2{
     float: left;
-    width: 10%;
+    margin: auto;
+    width: 100px;
 
 }
 
