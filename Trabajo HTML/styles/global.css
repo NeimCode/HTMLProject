@@ -69,20 +69,6 @@ nav ul li a:hover {
 	padding: 20px;
 }
 
-#gatoMaulla {
-	float: right;
-	position: absolute;
-	right: 20px;
-	top: 0;
-	transition: all 0.2s ease;
-	width: 55px;
-}
-
-#gatoMaulla:hover {
-	animation: spin 0.5s infinite;
-	width: 60px;
-}
-
 .aqui {
 	box-shadow: 0px 0px 20px #f1e5d1;
 	font-weight: 700;

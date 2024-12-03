@@ -5,7 +5,7 @@
 	border: 5px dashed #b98a7d;
 	box-shadow: 0px 0px 40px -8px #b98a7d6a inset, 0px 0px 40px -8px #b98a7dda;
 	margin-bottom: 5%;
-	margin-top: 1%;
+	margin-top: 50%;
 	margin: auto;
 	padding: 5%;
 	width: 50%;
@@ -22,8 +22,15 @@
 }
 
 .cuerpo img {
-	animation: zoom 1s;
 	display: block;
 	margin: auto;
 	width: 50%;
+}
+
+#gatoMaulla {
+	transition: all 0.2s ease;
+}
+
+#gatoMaulla:hover {
+	animation: spin 0.5s infinite;
 }
