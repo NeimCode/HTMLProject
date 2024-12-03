@@ -1,52 +1,51 @@
-h2{
-    font-family: handwriting;
-    font-size: 30px;
-    font-style:normal;
-    color: #ffffff;
-    text-shadow: -3px 0px 0px rgba(192, 158, 143, 0.89);
+h2 {
+	color: #ffffff;
+	font-family: handwriting;
+	font-size: 30px;
+	font-style: normal;
+	text-shadow: -3px 0px 0px rgba(192,158,143,0.89);
 }
 
-img{
-    transition: all .2s ease;
+img {
+	transition: all .2s ease;
 }
 
-img:hover{
-    transform:scale(1.1);
-
+img:hover {
+	transform: scale(1.1);
 }
 
-.menu1{
-    float: right;
-    width: 100px;
-    margin: auto;
+#comida1, #comida2, #comida3, #comida4 {
+	background-color: #e5e0dc;
+	border-radius: 20px;
+	border: 5px dashed #ffffff;
+	box-shadow: 0px 0px 40px -8px #b98a7d6a inset;
+	margin: 2%;
+	padding: 20px;
 }
 
-.menu2{
-    float: left;
-    margin: auto;
-    width: 100px;
-
+#comida1, #comida3 {
+	animation: unLado 1.3s ease 0s 1 normal forwards;
 }
 
-#comida1, #comida3{
-    animation: unLado 1.3s ease 0s 1 normal forwards;
+#comida2, #comida4 {
+	animation: alOtro 1.3s ease 0s 1 normal forwards;
 }
 
-#comida2, #comida4{
-    animation: alOtro 1.3s ease 0s 1 normal forwards;
-}
-#comida1, #comida2, #comida3, #comida4{
-    margin: 2%;
-    padding: 20px;
-    background-color: #e5e0dc;
-    border: 5px dashed #ffffff;
-    border-radius: 20px;
-    box-shadow: 0px 0px 40px -8px #b98a7d6a inset;
+.menu {
+	margin-bottom: 5%;
+	margin-top: 5%;
+	margin: auto;
+	width: 60%;
 }
 
-.menu{
-    margin: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 60%;
+.menu1 {
+	float: right;
+	margin: auto;
+	width: 100px;
+}
+
+.menu2 {
+	float: left;
+	margin: auto;
+	width: 100px;
 }

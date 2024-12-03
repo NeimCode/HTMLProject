@@ -1,100 +1,95 @@
+@font-face {
+	font-family: "MyWebFont";
+	src: url("../fonts/ComichaRegular.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "handwriting";
+	src: url("../fonts/HelloBeautifulEart-e9nwe.otf");
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-  }
-  
-  body {
-    background-color: #e6bbaa;
-    background-image: url(../img/coffee-pattern.png),
-      url(../img/coffee-pattern.png), url(../img/simple-dashed.png);
-    background-position: left top, right top, right bottom;
-    background-repeat: repeat-y, repeat-y, repeat;
-  
-    background-size: 30px, 30px, 10px;
-  }
-  
-  nav {
-    text-align: center;
-    padding: 1%;
-    background-color: #b98a7d;
-    flex-shrink: 0;
-    animation: deArriba 1s;
-  }
-  
-  nav ul {
-    list-style-type: none;
-  }
-  
-  nav ul li {
-    display: inline;
-    padding: 3dvw;
-  }
-  
-  nav ul li a {
-    display: inline;
-    background-color: #f1e5d1;
-    color: #987070;
-    padding: 1.5%;
-    text-decoration: none;
-    box-shadow: 0px 0px 40px -8px #b98a7dd4 inset;
-    transition: all 0.2s ease;
-    border-radius: 10px;
-  }
-  
-  nav ul li a:hover {
-    border: 3px rgb(255, 255, 255) solid;
-    padding: 20px;
-  }
-  
-  nav ul li a:active {
-    background-color: #98707044;
-  }
-  
-  .aqui {
-    box-shadow: 0px 0px 20px #f1e5d1;
-    font-weight: 700;
-  }
-  
-  footer {
-    width: 100%;
-    background-color: #b98a7d;
-    text-align: center;
-    padding: 1rem 0;
-    box-sizing: border-box;
-    bottom: 0;
-  }
-  
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  #gatoMaulla {
-    width: 55px;
-    float: right;
-    position: absolute;
-    top: 0;
-    right: 20px;
-    transition: all 0.2s ease;
-  }
-  
-  #gatoMaulla:hover {
-    width: 60px;
-    animation: spin 0.5s infinite;
-  }
-  
-  /*Fuentes*/
-  
-  @font-face {
-    font-family: "MyWebFont";
-    src: url("../fonts/ComichaRegular.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: "handwriting";
-    src: url("../fonts/HelloBeautifulEart-e9nwe.otf");
-  }
-  
+	border: 0;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #e6bbaa;
+	background-image: url(../img/coffee-pattern.png), url(../img/coffee-pattern.png), url(../img/simple-dashed.png);
+	background-position: left top, right top, right bottom;
+	background-repeat: repeat-y, repeat-y, repeat;
+	background-size: 30px, 30px, 10px;
+}
+
+footer {
+	background-color: #b98a7d;
+	bottom: 0;
+	box-sizing: border-box;
+	padding: 1rem 0;
+	text-align: center;
+	width: 100%;
+}
+
+nav {
+	animation: deArriba 1s;
+	background-color: #b98a7d;
+	flex-shrink: 0;
+	padding: 1%;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline;
+	padding: 3dvw;
+}
+
+nav ul li a {
+	background-color: #f1e5d1;
+	border-radius: 10px;
+	box-shadow: 0px 0px 40px -8px #b98a7dd4 inset;
+	color: #987070;
+	display: inline;
+	padding: 1.5%;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+nav ul li a:active {
+	background-color: #98707044;
+}
+
+nav ul li a:hover {
+	border: 3px rgb(255,255,255) solid;
+	padding: 20px;
+}
+
+#gatoMaulla {
+	float: right;
+	position: absolute;
+	right: 20px;
+	top: 0;
+	transition: all 0.2s ease;
+	width: 55px;
+}
+
+#gatoMaulla:hover {
+	animation: spin 0.5s infinite;
+	width: 60px;
+}
+
+.aqui {
+	box-shadow: 0px 0px 20px #f1e5d1;
+	font-weight: 700;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
