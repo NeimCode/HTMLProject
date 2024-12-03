@@ -63,7 +63,7 @@
     text-align: center;
     padding: 1rem 0;
     box-sizing: border-box;
-    flex-shrink: 0;
+    bottom: 0;
   }
   
   .wrapper {
