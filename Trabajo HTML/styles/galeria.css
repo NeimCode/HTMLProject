@@ -12,6 +12,8 @@
 
 .galeria {
 	margin-top: 5%;
+	margin-bottom: 5%;
+
 }
 
 .galeria img {
@@ -25,6 +27,13 @@
 	transform: scale(1.5);
 }
 
+.galeria video{
+	transition: transform 0.25s ease;
+}
+
+.galeria video:hover {
+	transform: scale(1.5);
+}
 .row {
 	display: flex;
 	gap: 10px;
@@ -33,4 +42,9 @@
 
 .row img {
 	width: 350px;
+}
+
+.row video{
+	width: 350px;
+
 }

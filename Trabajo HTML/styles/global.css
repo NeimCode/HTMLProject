@@ -38,6 +38,8 @@ nav {
 	flex-shrink: 0;
 	padding: 1%;
 	text-align: center;
+	font-family: handwriting;
+	font-size: 20px;
 }
 
 nav ul {
@@ -61,12 +63,12 @@ nav ul li a {
 }
 
 nav ul li a:active {
-	background-color: #98707044;
+	background-color: #f8f0f044;
 }
 
 nav ul li a:hover {
 	border: 3px rgb(255,255,255) solid;
-	padding: 20px;
+	padding: 25px;
 }
 
 .aqui {
