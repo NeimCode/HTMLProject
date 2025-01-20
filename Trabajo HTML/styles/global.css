@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -98,3 +99,88 @@
     src: url("../fonts/HelloBeautifulEart-e9nwe.otf");
   }
   
+=======
+@font-face {
+	font-family: "MyWebFont";
+	src: url("../fonts/ComichaRegular.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "handwriting";
+	src: url("../fonts/HelloBeautifulEart-e9nwe.otf");
+}
+
+* {
+	border: 0;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #e6bbaa;
+	background-image: url(../img/coffee-pattern.png), url(../img/coffee-pattern.png), url(../img/simple-dashed.png);
+	background-position: left top, right top, right bottom;
+	background-repeat: repeat-y, repeat-y, repeat;
+	background-size: 30px, 30px, 10px;
+}
+
+footer {
+	background-color: #b98a7d;
+	bottom: 0;
+	box-sizing: border-box;
+	padding: 1rem 0;
+	text-align: center;
+	width: 100%;
+}
+
+nav {
+	animation: deArriba 1s;
+	background-color: #b98a7d;
+	flex-shrink: 0;
+	padding: 1%;
+	text-align: center;
+	font-family: handwriting;
+	font-size: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline;
+	padding: 3dvw;
+}
+
+nav ul li a {
+	background-color: #f1e5d1;
+	border-radius: 10px;
+	box-shadow: 0px 0px 40px -8px #b98a7dd4 inset;
+	color: #987070;
+	display: inline;
+	padding: 1.5%;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+nav ul li a:active {
+	background-color: #f8f0f044;
+}
+
+nav ul li a:hover {
+	border: 3px rgb(255,255,255) solid;
+	padding: 25px;
+}
+
+.aqui {
+	box-shadow: 0px 0px 20px #f1e5d1;
+	font-weight: 700;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+>>>>>>> d0c06469d4ae03c096bd152c13455501c9b3fba8

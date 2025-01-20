@@ -1,31 +1,42 @@
 .cuerpo {
-    margin: auto;
-    margin-top: 1%;
-    margin-bottom: 5%;
-    width: 50%;
-    padding: 5%;
-    background-color: #e5e0dc;
-    border: 5px dashed #b98a7d;
-    border-radius: 10px;
-    animation: aparece 1s;
-    box-shadow: 0px 0px 40px -8px #b98a7d6a inset,  0px 0px 40px -8px #b98a7dda;
+	animation: aparece 1s;
+	background-color: #e5e0dc;
+	border-radius: 10px;
+	border: 5px dashed #b98a7d;
+	box-shadow: 0px 0px 40px -8px #b98a7d6a inset, 0px 0px 40px -8px #b98a7dda;
+	margin: auto;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	padding: 5%;
+	width: 50%;
 }
-
 
 .cuerpo h1 {
-    font-family: "MyWebFont";
-    font-weight: 400;
-    font-style:normal;
-    font-size: 2.5rem;
-    text-align: center;
-    color: #c59590;
-    text-shadow: 0px 0px 4px #eed2cf;
+	color: #c59590;
+	font-family: "MyWebFont";
+	font-size: 2.5rem;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	text-shadow: 0px 0px 4px #eed2cf;
 }
 
-.cuerpo img{
-    display: block;
-    margin: auto;
-    width: 50%;
-    animation: zoom 1s;
+.cuerpo img {
+	display: block;
+	margin: auto;
+	width: 50%;
 }
 
+audio{
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+#gatoMaulla {
+	transition: all 0.2s ease;
+}
+
+#gatoMaulla:hover {
+	animation: spin 0.5s infinite;
+}
