@@ -6,13 +6,33 @@
     width: 50%;
     padding: 5%;
     background-color: #f2f2f2;
-    border: 1px solid #ddd;
+    border: 5px dashed #b98a7d;
     border-radius: 10px;
+    
 
 }
-
 .ubicacion img{
     display: block;
-    margin: auto;
-    width: 20%;
+    margin: 0 auto;
+    max-height: 3%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ubicacion h1{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: #b98a7d;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.ubicacion p{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: #b98a7d;
 }

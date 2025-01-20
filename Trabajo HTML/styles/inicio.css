@@ -27,6 +27,16 @@
 	width: 50%;
 }
 
+.cuerpo a {
+  text-decoration: none;
+  color: #b98a7d;
+  transition: color 0.2s ease;
+  text-shadow: 0px 0px 2px #a06c66;
+}
+
+.cuerpo a:hover {
+  color: #a06c66;
+}
 audio{
 	display: block;
 	margin: auto;
