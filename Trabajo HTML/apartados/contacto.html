@@ -9,11 +9,9 @@
     <link rel="stylesheet" href="../styles/global.css">
     <link rel="stylesheet" href="../styles/contacto.css">
     <link rel="stylesheet" href="../styles/animacion.css">
-
 </head>
 
 <body>
-
     <div class="wrapper">
         <header>
             <nav>
@@ -30,34 +28,36 @@
             <form class="form-horizontal">
                 <fieldset>
                     <legend><span>Contacto</span></legend>
-                    <input class="necesario" name="nombre" type="text" placeholder="Pon tu nombre aquí."
-                        class="form-control input-md" required="" autofocus>
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="selectbasic"><span>Data Center</span></label>
-                        <br>
-                        <select id="selectbasic" name="selectbasic">
-                            <option value="elemental">Elemental</option>
-                            <option value="gaia">Gaia</option>
-                            <option value="mana">Mana</option>
-                            <option value="meteor">Meteor</option>
-                            <option value="aether">Aether</option>
-                            <option value="primal">Primal</option>
-                            <option value="crystal">Crystal</option>
-                            <option value="dynamis">Dynamis</option>
-                            <option value="chaos">Chaos</option>
-                            <option value="light">Light</option>
-                            <option value="materia">Materia</option>
-                        </select>
+                        <label class="col-md-4 control-label" for="nombre"><span>Nombre:</span></label>
+                        <div class="col-md-4">
+                            <input class="necesario form-control input-md" id="nombre" name="nombre" type="text" placeholder="Pon tu nombre aquí." required autofocus>
+                        </div>
                     </div>
-                    <br>
-
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="razon"><b>¿Por qué quieres contactar con
-                                nosotros?</b></label>
+                        <label class="col-md-4 control-label" for="selectbasic"><span>Data Center:</span></label>
+                        <div class="col-md-4">
+                            <select id="selectbasic" name="selectbasic" class="form-control">
+                                <option value="elemental">Elemental</option>
+                                <option value="gaia">Gaia</option>
+                                <option value="mana">Mana</option>
+                                <option value="meteor">Meteor</option>
+                                <option value="aether">Aether</option>
+                                <option value="primal">Primal</option>
+                                <option value="crystal">Crystal</option>
+                                <option value="dynamis">Dynamis</option>
+                                <option value="chaos">Chaos</option>
+                                <option value="light">Light</option>
+                                <option value="materia">Materia</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-4 control-label"><b>Motivo de contacto:</b></label>
                         <div class="col-md-4">
                             <div class="radio">
                                 <label for="razon-0">
-                                    <input type="radio" name="razon" id="razon-0" value="Reserva" checked="checked">
+                                    <input type="radio" name="razon" id="razon-0" value="Reserva" checked>
                                     Reserva
                                 </label>
                             </div>
@@ -81,21 +81,23 @@
                             </div>
                         </div>
                     </div>
-                    <br>
                     <p><b>¡Dinos lo que deseas!</b></p>
-
-                    <textarea class="form-control" id="opinion"
-                        name="opinion">Escribe aquí lo que deseas decirnos.</textarea>
-                    <br>
-                    <br>
-                    <button id="button1">Enviar</button>
-                    <button id="button2">Reset</button>
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="opinion"><span>Comentario:</span></label>
+                        <div class="col-md-4">
+                            <textarea class="form-control" id="opinion" name="opinion" placeholder="Escribe aquí lo que deseas decirnos."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-4 col-md-offset-4">
+                            <button id="button1" class="btn btn-primary" type="submit">Enviar</button>
+                            <button id="button2" class="btn btn-default" type="reset">Reset</button>
+                        </div>
+                    </div>
                     <br><br>
-                    <a href="mailto:Miaumiau@gmail.com">¡O si prefieres, envianos un correo aquí!</a>
-
+                    <a href="mailto:miaumiau@gmail.com">¡O si prefieres, envíanos un correo aquí!</a>
                 </fieldset>
             </form>
-
         </div>
     </div>
     <footer>
