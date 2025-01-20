@@ -28,10 +28,9 @@
         <div class="formulario">
             <form class="form-horizontal">
                 <fieldset>
-                    <a href="mailto:Miaumiau@gmail.com">¡O si prefieres, envianos un correo aquí!</a>
                     <legend><span>Contacto</span></legend>
-                    <input id="nombre" name="nombre" type="text" placeholder="Pon tu nombre aquí."
-                        class="form-control input-md" required="">
+                    <input class="necesario" name="nombre" type="text" placeholder="Pon tu nombre aquí."
+                        class="form-control input-md" required="" autofocus>
                     <div class="form-group">
                         <label class="col-md-4 control-label" for="selectbasic"><span>Data Center</span></label>
                         <br>
@@ -53,7 +52,7 @@
 
                     <div class="form-group">
                         <label class="col-md-4 control-label" for="razon"><b>¿Por qué quieres contactar con
-                            nosotros?</b></label>
+                                nosotros?</b></label>
                         <div class="col-md-4">
                             <div class="radio">
                                 <label for="razon-0">
@@ -83,13 +82,16 @@
                     </div>
                     <br>
                     <p><b>¡Dinos lo que deseas!</b></p>
-                    
+
                     <textarea class="form-control" id="opinion"
                         name="opinion">Escribe aquí lo que deseas decirnos.</textarea>
-                        <br>
-                        <br>
+                    <br>
+                    <br>
                     <button id="button1">Enviar</button>
                     <button id="button2">Reset</button>
+                    <br><br>
+                    <a href="mailto:Miaumiau@gmail.com">¡O si prefieres, envianos un correo aquí!</a>
+
                 </fieldset>
             </form>
 
@@ -101,4 +103,3 @@
 </body>
 
 </html>
-
