@@ -1,5 +1,7 @@
 span {
-	font-size: 1.5em;
+  font-size: 1.5em;
+  color: #987070;
+  font-weight: 600;
 }
 
 .formulario {
@@ -18,11 +20,6 @@ span {
   justify-content: center;
 }
 
-span {
-	color: #987070;
-	font-weight: 600;
-}
-
 a {
   text-decoration: none;
   color: #987070;
@@ -33,11 +30,15 @@ a:hover {
   color: #523838;
   font-weight: 600;
 }
+
+.button {
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
 #button1 {
   color: #246428;
   background-color: rgba(0, 128, 0, 0.349);
-  border-radius: 5px;
-  padding: 5px 10px;
   border: none;
   cursor: pointer;
 }
@@ -45,14 +46,12 @@ a:hover {
 #button2 {
   color: #793030;
   background-color: rgba(255, 0, 0, 0.26);
-  border-radius: 5px;
-  padding: 5px 10px;
 }
 
 .necesario {
-	color: #523838;
-	background-color: #e6b4b4;
-	border: 1px solid #523838;
-	border-radius: 5px;
-	padding: 2px;
+  color: #523838;
+  background-color: #e6b4b4;
+  border: 1px solid #523838;
+  border-radius: 5px;
+  padding: 2px;
 }
