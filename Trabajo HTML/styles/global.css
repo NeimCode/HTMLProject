@@ -102,4 +102,31 @@ nav ul li a:hover {
   box-shadow: 0px 0px 40px -8px #b98a7dd4 inset;
 }
 
+    .dropdown {
+      position: relative; 
+    }
+
+    .dropdown-menu {
+      display: none; 
+
+      position: absolute; 
+      top: 4em;
+      left: 1.9em;
+      background-color: #f1e5d1;
+      border-radius: 10px;
+      
+      box-shadow: 0px 0px 40px -8px #b98a7dd4 inset;
+    }
+    .dropdown:hover .dropdown-menu {
+      display: block; 
+    }
+    .dropdown-menu li {
+      display: block; 
+      margin: 0; 
+      padding: 0; 
+    }
+    .dropdown-menu li a {
+      display: block; 
+      padding: 0.5em; 
+    }
 
