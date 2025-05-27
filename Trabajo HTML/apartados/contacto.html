@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../styles/global.css">
     <link rel="stylesheet" href="../styles/contacto.css">
     <link rel="stylesheet" href="../styles/animacion.css">
+    <script src="../js/formulari.js"></script>
 </head>
 
 <body>
@@ -31,7 +32,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label" for="nombre"><span>Nombre:</span></label>
                         <div class="col-md-4">
-                            <input class="necesario form-control input-md" id="nombre" name="nombre" type="text" placeholder="Pon tu nombre aquí." required autofocus>
+                            <input class="necesario form-control input-md" id="nombre" name="nombre" type="text" placeholder="Pon tu nombre aquí." autofocus>
                         </div>
                     </div>
                     <div class="form-group">
@@ -85,8 +86,17 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label" for="opinion"><span>Comentario:</span></label>
                         <div class="col-md-4">
-                            <textarea class="form-control" id="opinion" name="opinion" placeholder="Escribe aquí lo que deseas decirnos." required></textarea>
+                            <textarea class="form-control" id="opinion" name="opinion" placeholder="Escribe aquí lo que deseas decirnos."></textarea>
                         </div>
+                    
+                                <div class="col-md-4 col-md-offset-4">
+            <label>
+                <input type="checkbox" id="telefonoCheck"> ¿Quieres que te contactemos por teléfono?
+            </label>
+            <div id="telefonoExtra" style="display:none; margin-top: 10px;">
+                <input type="text" id="telefono" class="form-control" placeholder="Introduce tu teléfono">
+            </div>
+        </div>
                     </div>
                     <div class="form-group">
                         <div class="col-md-4 col-md-offset-4">
