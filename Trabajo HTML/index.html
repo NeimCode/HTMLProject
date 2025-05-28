@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./styles/animacion.css">
     <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
     <script src="./js/script.js"></script>
+    <script src="./js/gatodandovueltas.js"></script>
+
 </head>
 
 <body>
@@ -23,9 +25,9 @@
                     <li><a href="./apartados/ubicacion.html">Ubicación</a></li>
                     <li><a href="./index.html" class="aqui">Inicio</a></li>
                     <li><a href="./apartados/galeria.html">Galería</a></li>
-                    <li class="dropdown">
-                        <a id="dropdown-button">Opciones</a>
-                        <ul id="dropdown-menu" class="dropdown-menu">
+                    <li class="desplegable">
+                        <a id="boton-desplegable">Opciones</a>
+                        <ul id="menu-desplegable" class="menu-desplegable">
                             <li><a href="./apartados/contacto.html">Contacto</a></li>
                             <li><a href="./apartados/contacto.html">Google Maps Api</a></li>
                         </ul>
@@ -33,14 +35,37 @@
                 </ul>
 
                 <div id="tiempo">miau</div>
-
             </nav>
+
+
+                        <div class="seleccionaGatito">
+                <form>
+                    <label for="selecciona"> Selecciona un tipo de gato: </label>
+                    <select id="selecciona">
+                        <option value="Gato Postre">Gato Postre</option>
+                        <option value="Gato Fruta">Gato Fruta</option>
+                    </select>
+                    <br>
+                    <label for="selecciona2"> Selecciona un tipo de Gato Postre: </label>
+                    <select id="selecciona2">
+                        <option value="Gato Postre Pancake">Gato Postre Pancake</option>
+                        <option value="Gato Postre Waffle">Gato Postre Waffle</option>
+                        <option value="Gato Postre Gelatina">Gato Postre Gelatina</option>
+
+                    </select>
+                </form>
+            </div>
         </header>
+
+
 
         <div class="cuerpo">
 
+            
+
+
             <h1>Panqueque Family</h1>
-            <img src="./img/Pancake_Cat.webp" id="gatoMaulla" alt="">
+            <img src="./img/gatos/Pancake_Cat.webp" id="gatoMaulla" alt="">
 
             <audio controls>
                 <source src="./music/OldSharlayan.mp3" type="audio/ogg">

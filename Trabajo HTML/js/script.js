@@ -15,16 +15,18 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 1000);
     }
     
-document.addEventListener("click", (event) => {
+document.addEventListener("keydown", (event) => {
+    if (event.key === "c" && event.ctrlKey) {
         const randomColor = `#${Math.floor(Math.random()*16777215).toString(16)}`;
         document.body.style.backgroundColor = randomColor;
+    }
 });
 
 
     tiempo();
 
-    const dropdownButton = document.getElementById("dropdown-button");
-    const dropdownMenu = document.getElementById("dropdown-menu");
+    const dropdownButton = document.getElementById("boton-desplegable");
+    const dropdownMenu = document.getElementById("menu-desplegable");
 
     dropdownButton.addEventListener("click", function() {
       if (dropdownMenu.style.display === "block") {
