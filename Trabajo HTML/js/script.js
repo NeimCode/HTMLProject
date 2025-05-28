@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const colorActual = style.getPropertyValue('background-color');
 
         function alerta(color) {
-        alert(`Hola, has entrat a la página. El color actual es ${color}`);
+        alert(' El color actual es ' + color);
     }
     
     alerta(colorActual);
