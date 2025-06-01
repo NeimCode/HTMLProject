@@ -14,6 +14,9 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("tiempo").innerHTML = new Date().toLocaleString();
         }, 1000);
     }
+
+    tiempo();
+
     
 document.addEventListener("keydown", (event) => {
     if (event.key === "c" && event.ctrlKey) {
@@ -23,20 +26,17 @@ document.addEventListener("keydown", (event) => {
 });
 
 
-    tiempo();
 
-    const dropdownButton = document.getElementById("boton-desplegable");
-    const dropdownMenu = document.getElementById("menu-desplegable");
+    const botonDesplegable = document.getElementById("boton-desplegable");
+    const menuDesplegable = document.getElementById("menu-desplegable");
 
-    dropdownButton.addEventListener("click", function() {
-      if (dropdownMenu.style.display === "block") {
-        dropdownMenu.style.display = "none";
+    botonDesplegable.addEventListener("click", function() {
+      if (menuDesplegable.style.display === "block") {
+        menuDesplegable.style.display = "none";
       } else {
-        dropdownMenu.style.display = "block";
+        menuDesplegable.style.display = "block";
       }
     });
-
-    
 
 
 
