@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const divContador = document.createElement("div");
     divContador.id = "contador";
     divContador.style.marginTop = "5px";
-    textareaComentario.insertAdjacentElement('afterend', divContador);
+    textareaComentario.insertAdjacentElement("afterend", divContador);
 
     function actualizarContador() {
         const longitud = textareaComentario.value.length;
